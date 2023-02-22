@@ -1,0 +1,31 @@
+/* importing Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600&display=swap');
+
+/* Importing all components file */
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+/* General style rules for fonts and colors */
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	background-color: #FFFDF7;
+}
+
+h1, h2, h3 {
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+	color: #FFD639;
+}
+
+a {
+	text-decoration: none;
+}
